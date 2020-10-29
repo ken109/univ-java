@@ -1,5 +1,5 @@
 package chap10;
 
-public 	interface UnitFun{
-	    double apply(double x);
+public interface UnitFun {
+    double apply(double x);
 }

@@ -1,17 +1,19 @@
 package chap08;
+
 public class Mikuji82 {
-    public static void main(String[] args){
-        if(mikuji(args[0])){ 
+    public static void main(String[] args) {
+        if (mikuji(args[0])) {
             System.out.println("あたり");
-        }else{
+        } else {
             System.out.println("はずれ");
-        } 
+        }
     }
-    static boolean mikuji(String s){
+
+    static boolean mikuji(String s) {
         int number;
-        try{
+        try {
             number = Integer.parseInt(s);
-        }catch(NumberFormatException e){
+        } catch (NumberFormatException e) {
             System.out.println(e.getMessage());
             System.out.println("引数に数を指定してください。");
             number = -1;

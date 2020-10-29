@@ -1,6 +1,7 @@
 package chap03;
 
-import tg.*;
+import tg.Turtle;
+import tg.TurtleFrame;
 
 public class T33 {
     public static void main(String[] args) {

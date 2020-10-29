@@ -1,6 +1,7 @@
 package kadai.kadai2;
 
-import tg.*;
+import tg.Turtle;
+import tg.TurtleFrame;
 
 public class Kadai2_1 {
     public static void main(String[] args) {
