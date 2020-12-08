@@ -20,7 +20,6 @@ public class GraphTurtle extends Turtle {
         down();
 
         while (x <= xArea) {
-            System.out.printf("x = %f, y = %f\n", x, calcY(x, a, b));
             moveTo(x + frameScale / 2, -calcY(x, a, b) + frameScale / 2);
             x += xStep;
         }

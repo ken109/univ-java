@@ -7,7 +7,7 @@ public class Kadai10_1 {
         TurtleFrame f = new TurtleFrame();
 
         for (double[] graph : MultiTurtle.turtleFig) {
-            MultiTurtle m = new kadai.kadai10.MultiTurtle(graph);
+            MultiTurtle m = new MultiTurtle(graph);
             f.add(m);
             (new Thread(m)).start();
         }
