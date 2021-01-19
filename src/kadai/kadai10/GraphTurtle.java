@@ -15,6 +15,15 @@ public class GraphTurtle extends Turtle {
 
     public void drawGraph(double a, double b) {
         up();
+        moveTo(0, frameScale / 2);
+        down();
+        moveTo(frameScale, frameScale / 2);
+        up();
+        moveTo(frameScale / 2, 0);
+        down();
+        moveTo(frameScale / 2, frameScale);
+
+        up();
         double x = -xArea;
         moveTo(x + frameScale / 2, -calcY(x, a, b) + frameScale / 2);
         down();
